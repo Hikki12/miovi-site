@@ -1,0 +1,44 @@
+.services__item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px black;
+   
+}
+
+
+.services {
+    background-color: rgb(255, 255, 255);
+}
+
+.services__container-icon {
+    position: relative;
+    height: 180px;
+    
+}
+
+.services__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100px;
+}
+
+.services__item-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.separator__container {
+    padding: 1px;
+}
+
+.separator {
+    border-top: 3px solid rgb(93, 180, 206);
+    width: 20%;
+    margin: 10px auto;
+}
+
+.services__item-description {
+    padding: 10px;
+    text-align: justify;
+}

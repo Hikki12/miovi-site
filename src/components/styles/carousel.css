@@ -1,0 +1,27 @@
+.carousel__item {
+    height: auto !important;
+    width: 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.glider-dots {
+    z-index: 3 !important;
+}
+
+.glider-dot {
+    background-color: #949494 !important;
+}
+
+.glider-dot.active {
+    background-color: #1f77eb !important;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel__item {
+        width: 100% !important;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }    
+}
